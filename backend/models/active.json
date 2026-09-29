@@ -1,0 +1,6 @@
+{
+  "id": "ppe",
+  "name": "工地安全帽检测（PPE YOLOv8m）",
+  "source": "https://huggingface.co/jashwanthpeddisetty0712/ppe-detection-yolov8m",
+  "sha256": "f95e051d78f876ba1eab452a093b02e35d925cc63e30d2e9671299abf8d697fe"
+}

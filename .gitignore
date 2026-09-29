@@ -40,16 +40,9 @@ backend/uploads/*
 !backend/uploads/.gitkeep
 backend/results/*
 !backend/results/.gitkeep
-backend/models/*.pt
-backend/models/active.json
 *.pt
 *.pt.part
 *.pt.new
-backend/models/active.json.new
-model_zoo/**/*.jpg
-model_zoo/bus.jpg
-!backend/models/.gitkeep
-training/dataset/*
-!training/dataset/.gitkeep
+backend/models/active.json.new.gitkeep
 training/runs/
 *.log
