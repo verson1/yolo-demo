@@ -40,7 +40,6 @@ backend/uploads/*
 !backend/uploads/.gitkeep
 backend/results/*
 !backend/results/.gitkeep
-*.pt
 *.pt.part
 *.pt.new
 backend/models/active.json.new.gitkeep
