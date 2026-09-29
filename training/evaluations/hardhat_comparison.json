@@ -1,0 +1,128 @@
+{
+  "dataset": "keremberke/hard-hat-detection test split, first N rows",
+  "images": 48,
+  "confidence": 0.25,
+  "iou": 0.5,
+  "metric_note": "Box-level precision and recall at fixed confidence; not mAP or worker-level compliance",
+  "results": [
+    {
+      "model": "motorcycle_helmet",
+      "classes": {
+        "0": "With Helmet",
+        "1": "Without Helmet"
+      },
+      "counts": {
+        "Hardhat": {
+          "tp": 41,
+          "fp": 21,
+          "fn": 67,
+          "precision": 0.6613,
+          "recall": 0.3796
+        },
+        "NO-Hardhat": {
+          "tp": 5,
+          "fp": 22,
+          "fn": 16,
+          "precision": 0.1852,
+          "recall": 0.2381
+        }
+      }
+    },
+    {
+      "model": "hardhat_keremberke",
+      "classes": {
+        "0": "Hardhat",
+        "1": "NO-Hardhat"
+      },
+      "counts": {
+        "Hardhat": {
+          "tp": 91,
+          "fp": 21,
+          "fn": 17,
+          "precision": 0.8125,
+          "recall": 0.8426
+        },
+        "NO-Hardhat": {
+          "tp": 18,
+          "fp": 3,
+          "fn": 3,
+          "precision": 0.8571,
+          "recall": 0.8571
+        }
+      }
+    },
+    {
+      "model": "hardhat_construction",
+      "classes": {
+        "0": "barricade",
+        "1": "dumpster",
+        "2": "excavators",
+        "3": "gloves",
+        "4": "hardhat",
+        "5": "mask",
+        "6": "no-hardhat",
+        "7": "no-mask",
+        "8": "no-safety vest",
+        "9": "person",
+        "10": "safety net",
+        "11": "safety shoes",
+        "12": "safety vest",
+        "13": "dump truck",
+        "14": "mini-van",
+        "15": "truck",
+        "16": "wheel loader"
+      },
+      "counts": {
+        "Hardhat": {
+          "tp": 55,
+          "fp": 16,
+          "fn": 53,
+          "precision": 0.7746,
+          "recall": 0.5093
+        },
+        "NO-Hardhat": {
+          "tp": 10,
+          "fp": 4,
+          "fn": 11,
+          "precision": 0.7143,
+          "recall": 0.4762
+        }
+      }
+    },
+    {
+      "model": "ppe",
+      "classes": {
+        "0": "Fall-Detected",
+        "1": "Gloves",
+        "2": "Goggles",
+        "3": "Hardhat",
+        "4": "Ladder",
+        "5": "Mask",
+        "6": "NO-Gloves",
+        "7": "NO-Goggles",
+        "8": "NO-Hardhat",
+        "9": "NO-Mask",
+        "10": "NO-Safety Vest",
+        "11": "Person",
+        "12": "Safety Cone",
+        "13": "Safety Vest"
+      },
+      "counts": {
+        "Hardhat": {
+          "tp": 104,
+          "fp": 10,
+          "fn": 4,
+          "precision": 0.9123,
+          "recall": 0.963
+        },
+        "NO-Hardhat": {
+          "tp": 18,
+          "fp": 1,
+          "fn": 3,
+          "precision": 0.9474,
+          "recall": 0.8571
+        }
+      }
+    }
+  ]
+}

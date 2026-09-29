@@ -1,0 +1,7 @@
+# Replace names with your own detection classes and put images/labels under dataset/.
+path: dataset
+train: images/train
+val: images/val
+names:
+  0: target_a
+  1: target_b

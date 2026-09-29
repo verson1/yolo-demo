@@ -1,0 +1,8 @@
+# Source: https://huggingface.co/datasets/keremberke/hard-hat-detection (CC BY 4.0)
+path: dataset/hardhat
+train: images/train
+val: images/val
+test: images/test
+names:
+  0: Hardhat
+  1: NO-Hardhat

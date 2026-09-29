@@ -21,3 +21,35 @@ rad.json
 *.flf
 #Test results file
 TestResults.xml
+
+# YOLO template artifacts
+.env
+.venv/
+.ultralytics/
+.matplotlib/
+.hf_cache/
+backend/.testdeps/
+backend/.pip-cache/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+frontend/node_modules/
+frontend/.npm-cache/
+frontend/dist/
+backend/uploads/*
+!backend/uploads/.gitkeep
+backend/results/*
+!backend/results/.gitkeep
+backend/models/*.pt
+backend/models/active.json
+*.pt
+*.pt.part
+*.pt.new
+backend/models/active.json.new
+model_zoo/**/*.jpg
+model_zoo/bus.jpg
+!backend/models/.gitkeep
+training/dataset/*
+!training/dataset/.gitkeep
+training/runs/
+*.log
